@@ -11,5 +11,6 @@
 .\objects\main.o: pwm.h
 .\objects\main.o: encoder.h
 .\objects\main.o: motor.h
+.\objects\main.o: exti.h
 .\objects\main.o: usart.h
 .\objects\main.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
