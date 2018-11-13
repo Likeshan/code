@@ -1,0 +1,15 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\encoder.o"
+".\objects\delay.o"
+".\objects\sys.o"
+".\objects\pwm.o"
+".\objects\nvic.o"
+".\objects\motor.o"
+".\objects\usart.o"
+".\objects\startup_stm32f10x_md.o"
+".\objects\system_stm32f10x.o"
+--strict --scatter ".\Objects\C8.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\C8.map" -o .\Objects\C8.axf

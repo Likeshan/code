@@ -1,0 +1,10 @@
+.\objects\usart.o: usart.c
+.\objects\usart.o: usart.h
+.\objects\usart.o: sys.h
+.\objects\usart.o: D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h
+.\objects\usart.o: D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h
+.\objects\usart.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\usart.o: D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h
+.\objects\usart.o: D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h
+.\objects\usart.o: D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\system_stm32f10x.h
+.\objects\usart.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h

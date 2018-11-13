@@ -1,0 +1,15 @@
+.\objects\nvic.o: nvic.c
+.\objects\nvic.o: nvic.h
+.\objects\nvic.o: sys.h
+.\objects\nvic.o: D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h
+.\objects\nvic.o: D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h
+.\objects\nvic.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\nvic.o: D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h
+.\objects\nvic.o: D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h
+.\objects\nvic.o: D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\system_stm32f10x.h
+.\objects\nvic.o: pwm.h
+.\objects\nvic.o: encoder.h
+.\objects\nvic.o: usart.h
+.\objects\nvic.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\nvic.o: delay.h
+.\objects\nvic.o: motor.h
