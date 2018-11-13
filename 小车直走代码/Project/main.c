@@ -15,7 +15,7 @@ int main(void)
 	delay_init(72);
 	delay_ms(1864);								//delay_ms 参数最大为1864
 	Motor_Init();
-	uart_init(72,9600);
+ 	uart_init(72,9600);
 	
 	TIM3_Encoder_Init(65535,0);		 //编码器
 	TIM4_Encoder_Init(65535,0);    //编码器
@@ -27,7 +27,7 @@ int main(void)
   TIM2_PWM_CH2_VAL=0;
 		LEFT_GO();
 	RIGHT_GO();
-	while(speed<300)
+	while(speed<500)
 	{
 		speed++;
 		TIM2_PWM_CH1_VAL=speed;
@@ -35,12 +35,13 @@ int main(void)
 		delay_us(1);
 	}
 	delay_ms(300);
+	SlowBuffer(10000,100);
 	//turn_left_90();
 	//turn_left_90();
 	//turn_left_90();
 	//turn_left_90();
-	TIM1_Int_Init(7199,99);				 //定时器10ms
-	EXTI_Init();
+	//TIM1_Int_Init(7199,99);				 //定时器10ms
+	//EXTI_Init();
 	while(1)
 	{
 		
