@@ -61,19 +61,14 @@ void TIM1_UP_IRQHandler()
 //	}
 	if(TIM3->CNT>TIM4->CNT) {add_flag = TIM2_PWM_CH2_VAL;TIM2_PWM_CH2_VAL+=50;}
 	if(TIM3->CNT<TIM4->CNT) {sub_flag = TIM2_PWM_CH2_VAL;TIM2_PWM_CH2_VAL-=50;}
-	while(TIM3->CNT!=TIM4->CNT);
+	while(TIM3->CNT>=TIM4->CNT+5||TIM3->CNT<=TIM4->CNT-5);
 
-	step_cnt+=TIM3->CNT;
-	
-	TIM3->CNT=TIM4->CNT=0;
+//	step_cnt+=TIM3->CNT;	
+//TIM3->CNT=TIM4->CNT=0;
 	if(add_flag){
 		TIM2_PWM_CH2_VAL  = add_flag+1;}
 	else if(sub_flag){
 		TIM2_PWM_CH2_VAL= sub_flag-1;}
-	
-
-	
-	
 	TIM1->SR &= ~(1<<0);
 }
 
