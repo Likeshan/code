@@ -54,16 +54,16 @@ void SlowBuffer(int TURN_DISTANCE,int aim_pwm)
 void EXTI_Init(void)
 {
 	RCC->APB2ENR |= 1<<2;
-	GPIOA->CRL &= 0XFFFFF0FF;
-	GPIOA->CRL |= 0X00000400;
-	Ex_NVIC_Config(GPIO_A,2,RTIR); 		//上升沿触发
+	GPIOA->CRL &= 0XFFFF0FFF;
+	GPIOA->CRL |= 0X00004000;
+	Ex_NVIC_Config(GPIO_A,3,RTIR); 		//上升沿触发
 
-	MY_NVIC_Init(1,2,EXTI2_IRQn,2);    	//抢占1，子优先级2，组2
+	MY_NVIC_Init(1,2,EXTI3_IRQn,2);    	//抢占1，子优先级2，组2
 }
-void EXTI2_IRQHandler(void)
+void EXTI3_IRQHandler(void)
 {
 	SlowBuffer(2300,150);
 	turn_left_90();
 	startgo();
-	EXTI->PR=1<<2;  //清除LINE0上的中断标志位  
+	EXTI->PR=1<<3;  
 }

@@ -17,6 +17,7 @@ void TIM1_Int_Init(u16 arr,u16 psc)
 }
 void TIM1_UP_IRQHandler()
 {
+	int gjl=0;
 	int add_flag=0,sub_flag=0;
 
 	if(TIM3->CNT>TIM4->CNT){	
@@ -28,12 +29,21 @@ void TIM1_UP_IRQHandler()
 			TIM2_PWM_CH2_VAL-=50;
 	}
 	while(TIM3->CNT>=TIM4->CNT+5||TIM3->CNT<=TIM4->CNT-5);
-  
-//TIM3->CNT=TIM4->CNT=0;
+  /*if(gjl)
+	{
+		TIM3->CNT=0;
+		TIM4->CNT=0;
+	}
+	else
+	{
+		TIM4->CNT=0;
+		TIM3->CNT=0;
+	}*/
 	if(add_flag){
 		TIM2_PWM_CH2_VAL  = add_flag+1;}
 	else if(sub_flag){
 		TIM2_PWM_CH2_VAL= sub_flag-1;}
+	
 	TIM1->SR &= ~(1<<0);
 }
 

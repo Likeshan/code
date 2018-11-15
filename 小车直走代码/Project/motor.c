@@ -2,22 +2,50 @@
 #include "sys.h"
 #include "pwm.h"
 #include "delay.h"
+
 void startgo(void )	
 {//pwm和编码器全部清零，然后pwm加速到speed的值
 	int speed=0;
-	TIM3->CNT=0;
-	TIM4->CNT=0;
+	int gjl=0;
 	TIM2_PWM_CH1_VAL=0;
   TIM2_PWM_CH2_VAL=0;
 	LEFT_GO();
-	RIGHT_GO();
-	while(speed<300)
+	RIGHT_GO();	
+	TIM3->CNT=0;
+	TIM4->CNT=0;
+	
+	TIM2_PWM_CH1_VAL=100;
+	TIM2_PWM_CH2_VAL=100;
+	delay_ms(50);
+	
+	TIM2_PWM_CH2_VAL=200;
+	TIM2_PWM_CH1_VAL=200;
+	delay_ms(50);
+	
+	TIM2_PWM_CH1_VAL=300;
+	TIM2_PWM_CH2_VAL=300;
+	delay_ms(50);
+	
+	TIM2_PWM_CH2_VAL=380;
+	TIM2_PWM_CH1_VAL=380;
+	/*while(speed<300)
 	{
 		speed++;
-		TIM2_PWM_CH1_VAL=speed;
-		TIM2_PWM_CH2_VAL=speed;
+		if(gjl)
+		{
+			TIM2_PWM_CH1_VAL=speed;
+			TIM2_PWM_CH2_VAL=speed;
+		}
+		else
+		{
+			TIM2_PWM_CH2_VAL=speed;
+			TIM2_PWM_CH1_VAL=speed;
+		}
 		delay_us(1);
+		gjl = !gjl;
 	}
+	TIM2_PWM_CH1_VAL=TIM2_PWM_CH2_VAL=385;
+	*/
 }
 void Motor_Init(void)
 {
