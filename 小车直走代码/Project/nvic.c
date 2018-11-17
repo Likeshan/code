@@ -43,7 +43,6 @@ void TIM1_UP_IRQHandler()
 		TIM2_PWM_CH2_VAL  = add_flag+1;}
 	else if(sub_flag){
 		TIM2_PWM_CH2_VAL= sub_flag-1;}
-	
 	TIM1->SR &= ~(1<<0);
 }
 

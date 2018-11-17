@@ -1,5 +1,5 @@
 Dependencies for Project 'C8', Target 'Target 1': (DO NOT MODIFY !)
-F (.\main.c)(0x5BED647C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\Project --c99-I C:\Users\李科汕\Desktop\git\code\code\小车直走代码\Project\RTE-I C:\Users\李科汕\Desktop\git\code\code\小车直走代码\Project\RTE\Device\STM32F103C8-I D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\main.c)(0x5BEF7BDD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\Project --c99-I C:\Users\李科汕\Desktop\git\code\code\小车直走代码\Project\RTE-I C:\Users\李科汕\Desktop\git\code\code\小车直走代码\Project\RTE\Device\STM32F103C8-I D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (sys.h)(0x550EC367)
 I (D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h)(0x528979E6)
 I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC31DA)
@@ -11,7 +11,7 @@ I (delay.h)(0x555AC61F)
 I (nvic.h)(0x5BEB9453)
 I (pwm.h)(0x5BE54AFF)
 I (encoder.h)(0x5BE79E61)
-I (motor.h)(0x5BEC0683)
+I (motor.h)(0x5BEE63D9)
 I (exti.h)(0x5BEB9453)
 I (usart.h)(0x550EB9F1)
 I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -50,7 +50,7 @@ I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
 I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
 I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
 I (D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
-F (.\nvic.c)(0x5BED52CC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\Project --c99-I C:\Users\李科汕\Desktop\git\code\code\小车直走代码\Project\RTE-I C:\Users\李科汕\Desktop\git\code\code\小车直走代码\Project\RTE\Device\STM32F103C8-I D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_MD-o .\objects\nvic.o --omf_browse .\objects\nvic.crf --depend .\objects\nvic.d)
+F (.\nvic.c)(0x5BEE8C5C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\Project --c99-I C:\Users\李科汕\Desktop\git\code\code\小车直走代码\Project\RTE-I C:\Users\李科汕\Desktop\git\code\code\小车直走代码\Project\RTE\Device\STM32F103C8-I D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_MD-o .\objects\nvic.o --omf_browse .\objects\nvic.crf --depend .\objects\nvic.d)
 I (nvic.h)(0x5BEB9453)
 I (sys.h)(0x550EC367)
 I (D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h)(0x528979E6)
@@ -64,9 +64,9 @@ I (encoder.h)(0x5BE79E61)
 I (usart.h)(0x550EB9F1)
 I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (delay.h)(0x555AC61F)
-I (motor.h)(0x5BEC0683)
-F (.\motor.c)(0x5BED3F39)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\Project --c99-I C:\Users\李科汕\Desktop\git\code\code\小车直走代码\Project\RTE-I C:\Users\李科汕\Desktop\git\code\code\小车直走代码\Project\RTE\Device\STM32F103C8-I D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_MD-o .\objects\motor.o --omf_browse .\objects\motor.crf --depend .\objects\motor.d)
-I (motor.h)(0x5BEC0683)
+I (motor.h)(0x5BEE63D9)
+F (.\motor.c)(0x5BEF7BA3)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\Project --c99-I C:\Users\李科汕\Desktop\git\code\code\小车直走代码\Project\RTE-I C:\Users\李科汕\Desktop\git\code\code\小车直走代码\Project\RTE\Device\STM32F103C8-I D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_MD-o .\objects\motor.o --omf_browse .\objects\motor.crf --depend .\objects\motor.d)
+I (motor.h)(0x5BEE63D9)
 I (sys.h)(0x550EC367)
 I (D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h)(0x528979E6)
 I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC31DA)
@@ -86,7 +86,7 @@ I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
 I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
 I (D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
 I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-F (.\exti.c)(0x5BECD847)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\Project --c99-I C:\Users\李科汕\Desktop\git\code\code\小车直走代码\Project\RTE-I C:\Users\李科汕\Desktop\git\code\code\小车直走代码\Project\RTE\Device\STM32F103C8-I D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_MD-o .\objects\exti.o --omf_browse .\objects\exti.crf --depend .\objects\exti.d)
+F (.\exti.c)(0x5BEE81A6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\Project --c99-I C:\Users\李科汕\Desktop\git\code\code\小车直走代码\Project\RTE-I C:\Users\李科汕\Desktop\git\code\code\小车直走代码\Project\RTE\Device\STM32F103C8-I D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_MD-o .\objects\exti.o --omf_browse .\objects\exti.crf --depend .\objects\exti.d)
 I (exti.h)(0x5BEB9453)
 I (sys.h)(0x550EC367)
 I (D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h)(0x528979E6)
@@ -101,7 +101,32 @@ I (encoder.h)(0x5BE79E61)
 I (usart.h)(0x550EB9F1)
 I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (delay.h)(0x555AC61F)
-I (motor.h)(0x5BEC0683)
+I (motor.h)(0x5BEE63D9)
+F (.\oled.c)(0x5BEE8FBD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\Project --c99-I C:\Users\李科汕\Desktop\git\code\code\小车直走代码\Project\RTE-I C:\Users\李科汕\Desktop\git\code\code\小车直走代码\Project\RTE\Device\STM32F103C8-I D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_MD-o .\objects\oled.o --omf_browse .\objects\oled.crf --depend .\objects\oled.d)
+I (oled.h)(0x5BECF0E8)
+I (sys.h)(0x550EC367)
+I (D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h)(0x528979E6)
+I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC31DA)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (D:\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (oledfont.h)(0x52C4DBB6)
+I (delay.h)(0x555AC61F)
+I (myiic.h)(0x5BEF6BBD)
+F (.\myiic.c)(0x5BEEE0C4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\Project --c99-I C:\Users\李科汕\Desktop\git\code\code\小车直走代码\Project\RTE-I C:\Users\李科汕\Desktop\git\code\code\小车直走代码\Project\RTE\Device\STM32F103C8-I D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_MD-o .\objects\myiic.o --omf_browse .\objects\myiic.crf --depend .\objects\myiic.d)
+I (myiic.h)(0x5BEF6BBD)
+I (sys.h)(0x550EC367)
+I (D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h)(0x528979E6)
+I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC31DA)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (delay.h)(0x555AC61F)
+I (oled.h)(0x5BECF0E8)
+I (D:\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
 F (RTE\Device\STM32F103C8\RTE_Device.h)(0x52431878)()
 F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x4F1E2E3C)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Users\李科汕\Desktop\git\code\code\小车直走代码\Project\RTE-I C:\Users\李科汕\Desktop\git\code\code\小车直走代码\Project\RTE\Device\STM32F103C8-I D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include--pd "__UVISION_VERSION SETA 514" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
 F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x4F1E2E3C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\Project --c99-I C:\Users\李科汕\Desktop\git\code\code\小车直走代码\Project\RTE-I C:\Users\李科汕\Desktop\git\code\code\小车直走代码\Project\RTE\Device\STM32F103C8-I D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_MD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)

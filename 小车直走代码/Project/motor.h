@@ -6,7 +6,6 @@ void LEFT_GO(void);
 void LEFT_BACK(void);
 void RIGHT_GO(void);
 void RIGHT_BACK(void);
-
 void startgo(void);
 
 #endif
