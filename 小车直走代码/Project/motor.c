@@ -15,29 +15,40 @@ void startgo(void )
 	TIM4->CNT=0;
 	
 	
-	TIM2_PWM_CH1_VAL=50;
-	TIM2_PWM_CH2_VAL=50;
-	delay_ms(50);
+//	TIM2_PWM_CH1_VAL=50;
+//	TIM2_PWM_CH2_VAL=50;
+//	delay_ms(50);
 	TIM2_PWM_CH1_VAL=100;
 	TIM2_PWM_CH2_VAL=100;
-	delay_ms(50);
+	delay_ms(120);
+	TIM2_PWM_CH1_VAL=125;
+	TIM2_PWM_CH2_VAL=125;
+	delay_ms(120);
 	TIM2_PWM_CH1_VAL=150;
 	TIM2_PWM_CH2_VAL=150;
-	delay_ms(50);
+	delay_ms(120);
+	TIM2_PWM_CH1_VAL=175;
+	TIM2_PWM_CH2_VAL=175;
+	delay_ms(120);
 	TIM2_PWM_CH2_VAL=200;
 	TIM2_PWM_CH1_VAL=200;
-	delay_ms(50);
-	TIM2_PWM_CH2_VAL=250;
-	TIM2_PWM_CH1_VAL=250;
-	delay_ms(50);
-	TIM2_PWM_CH1_VAL=300;
-	TIM2_PWM_CH2_VAL=300;
-	delay_ms(50);
-	TIM2_PWM_CH1_VAL=340;
-	TIM2_PWM_CH2_VAL=340;
-	delay_ms(50);
-	TIM2_PWM_CH2_VAL=380;
-	TIM2_PWM_CH1_VAL=380;
+//	delay_ms(120);
+//	TIM2_PWM_CH2_VAL=250;
+//	TIM2_PWM_CH1_VAL=250;
+//	delay_ms(120);
+//	
+//	TIM2_PWM_CH2_VAL=275;
+//	TIM2_PWM_CH1_VAL=275;
+//	delay_ms(120);
+//	
+//	TIM2_PWM_CH1_VAL=300;
+//	TIM2_PWM_CH2_VAL=300;
+//	delay_ms(50);
+//	TIM2_PWM_CH1_VAL=340;
+//	TIM2_PWM_CH2_VAL=340;
+//	delay_ms(50);
+//	TIM2_PWM_CH2_VAL=380;
+//	TIM2_PWM_CH1_VAL=380;
 //	while(speed<300)
 //	{
 //		speed++;

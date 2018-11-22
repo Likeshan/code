@@ -14,3 +14,6 @@
 .\objects\main.o: exti.h
 .\objects\main.o: usart.h
 .\objects\main.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: myiic.h
+.\objects\main.o: oled.h
+.\objects\main.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h

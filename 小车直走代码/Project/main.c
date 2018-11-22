@@ -30,8 +30,8 @@ int main(void)
 
 	startgo();
 	
-	TIM1_Int_Init(7199,999);				 //定时器10ms
-  EXTI_Init();
+	TIM1_Int_Init(7199,99);				 //定时器10ms
+	EXTI_Init();
 	while(1)
 	{
 				OLED_ShowNum(0,0,TIM3->CNT,6,12);
@@ -39,7 +39,7 @@ int main(void)
 				OLED_ShowNum(0,20,TIM2_PWM_CH1_VAL,6,12);
 				OLED_ShowNum(50,20,TIM2_PWM_CH2_VAL,6,12);
 				OLED_Refresh_Gram();
-//				//delay_us(1);		
+				//delay_us(1);		
 	}
 	 
 }

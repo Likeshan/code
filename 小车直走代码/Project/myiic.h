@@ -8,7 +8,7 @@
 #define EE_TYPE 256
 
 //IO²Ù×÷º¯Êý	 
-#define IIC_SCL                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              (10) //SCL
+#define IIC_SCL	   PBout(10)
 #define IIC_SDA    PBout(9) //SDA	 
 #define READ_SDA   PBin(9)  //ÊäÈëSDA 
 

@@ -6,9 +6,9 @@ extern u8 OLED_GRAM[128][8];
 void IIC_Init(void)
 {					     
  	RCC->APB2ENR|=1<<4;    //先使能外设IO PORTC时钟 							 
-	GPIOB->CRH&=0XFFFFF00F;//PC9/10 推挽输出
+	GPIOB->CRH&=0XFFFFF00F;//PB9/10 推挽输出
 	GPIOB->CRH|=0X00000330;	   
-	GPIOB->ODR|=3<<11;     //PC9,10 输出高
+	GPIOB->ODR|=3<<11;     //PB9,10 输出高
 }
 //产生IIC起始信号
 void IIC_Start(void)
